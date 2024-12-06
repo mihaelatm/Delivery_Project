@@ -9,7 +9,9 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="script/index.js" defer></script>
+
     <title>Delivery Food</title>
   </head>
   <body>
@@ -25,7 +27,7 @@
                 <img src="./images/icons/user.svg" alt="user" />
                 Войти
               </button>
-              <button class="btn btn-outline">
+              <button class="btn btn-outline" id="cart-button">
                 <img src="./images/icons/shopping-cart.svg" alt="user" />
                 Корзина
               </button>
@@ -59,7 +61,7 @@
               />
             </div>
 
-            <div class="products-wrapper">
+            <div class="products-wrapper" id="rests-container">
               <a href="goods.html" class="products-card">
                 <div class="products-card__image">
                   <img src="./images/rests/rest-1.jpg" alt="rest-1" />
