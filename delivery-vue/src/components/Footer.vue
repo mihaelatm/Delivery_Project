@@ -3,7 +3,7 @@
     <div class="container">
       <div class="footer-box">
         <router-link to="/" class="footer-logo logo">
-          <img src="..assets/images/logo.svg" alt="logo" />
+          <img src="../assets/images/logo.svg" alt="logo" />
         </router-link>
         <div class="footer-nav">
           <ul>
