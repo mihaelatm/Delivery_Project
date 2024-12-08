@@ -205,7 +205,7 @@ main {
   column-gap: 25px;
 }
 
-.products-card__description-info--raiting {
+.products-card__description--raiting {
   color: #ffc107;
   font-size: 18px;
   font-weight: 700;
